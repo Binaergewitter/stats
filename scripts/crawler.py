@@ -24,7 +24,7 @@ for e in PodcastFeed.entries:
         ingo = int("ingo" in e.podcast_person)
         l33tname = int("l33tname" in e.podcast_person)
         madmas = int("madmas" in e.podcast_person)
-        makefu = int("makefu" in e.podcast_person)
+        makefu = int("felix" in e.podcast_person)
         print(
             f'"{e.title}",{release_date_str},{record_date_str},Talk,{e.itunes_duration},{ingo},{l33tname},{madmas},{makefu},0,0'
         )
