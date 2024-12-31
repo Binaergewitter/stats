@@ -6,8 +6,9 @@ Some basic stats about the published episodes of the
 
 
 ## Getting started
-You need [jupyter notebook](https://jupyter.org/install)
-and [pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html).
+You need [jupyter notebook](https://jupyter.org/install),
+[pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html) and
+[calmap](https://pythonhosted.org/calmap/).
 
 All data can be found inside `data/$YEAR.csv`.
 
