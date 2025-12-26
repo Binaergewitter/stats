@@ -1,5 +1,6 @@
 # Helper script to create a CSV from rss feed
 # pip install feedparser
+# Install from source with this fix: https://github.com/kurtmckee/feedparser/pull/422
 import feedparser
 
 url = "https://blog.binaergewitter.de/podcast_feed/all/mp3/rss.xml"
